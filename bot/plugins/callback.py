@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/jbr_oficial"
+                    "My Dev ⚡", url="https://t.me/jbr_official"
                 ),
                 
             InlineKeyboardButton
@@ -1642,14 +1642,14 @@ async def callback_data(bot, update: CallbackQuery):
             InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/jbr_official'),
             InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://github.com/jbrofficial/profilterv1')
         ],[
-            InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
+            InlineKeyboardButton('❤️YouTube❤️', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
         ],[
             InlineKeyboardButton('⚙️ 𝙷𝚎𝚕𝚙 ⚙️', callback_data="help")
         ],[
-            InlineKeyboardButton('🗣️ 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/jbr_offical'),
+            InlineKeyboardButton('🤭 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝🤔', url='https://t.me/jbr_offical'),
             InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤖', url='https://t.me/crazy_rocks')
         ],[
-            InlineKeyboardButton('💥 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙼𝚢 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💥', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
+            InlineKeyboardButton('💥 S𝚞b𝚜c𝚛i𝚋e💥', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1682,10 +1682,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤 @jbrofficial', url='https://t.me/jbr_official'),
+            InlineKeyboardButton('Owner👩‍💻', url='https://t.me/jbr_official'),
             InlineKeyboardButton('Instgram❤️ ', url='https://instgram.com/jbr__creation')
         ],[
-            InlineKeyboardButton('👤 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 👤', url='https://t.me/AlbertEinsteinTG')
+            InlineKeyboardButton('🥀A𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 🥀', url='https://t.me/AlbertEinsteinTG')
         ],[
             InlineKeyboardButton('🏡 𝙷𝚘𝚖𝚎', callback_data='start'),
             InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
