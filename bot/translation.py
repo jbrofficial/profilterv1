@@ -46,18 +46,18 @@ class Translation(object):
             
             -> <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>
             
-<b><a href="https://t.me/crazy_rocks">© JBR CREATION</a></b>
+<b><a href="https://t.me/jbr_official">© JBR CREATION</a></b>
 """
     
-    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
+    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot Jbr</b>
 
 <b>>➥👨‍💼Master</b> : <b><a href="https://t.me/AlbertEinstein_TG">👤Albert Einstein</a></b>
 
-<b>➥ 👨‍💻Editor</b> : <b><a href="https://t.me/jbr_official">👤Jbrofficial</a></b>
+<b>➥ 👨‍💻OWNERr</b> : <b><a href="https://t.me/jbr_official">👩‍💻Jbrofficial💥</a></b>
 
-<b>➥ 🗣️Language</b> : <b>Python3<b>
+<b>➥ ⭕Language</b> : <b>Python3<b>
 
-<b>➥ 📚Library</b> : <b><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></b>
+<b>➥ Telegram 🎥</b> : <b><a href="https://t.me/cinema_collection_c">New Movies🍿 </a></b>
 
 <b>➥ 📖Source Code</b> : <b><a href="https://github.com/jbrofficial/profilterv1">💥Click Me</a></b>
 """
