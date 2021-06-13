@@ -112,13 +112,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url=f'https://t.me/Jbr_official'),
+        InlineKeyboardButton('M𝚊𝚜𝚝𝚎𝚛😌', url=f'https://t.me/Jbr_official'),
         InlineKeyboardButton('𝙷𝚎𝚕𝚙 🤔', callback_data="help")
     ],[
-        InlineKeyboardButton('👩‍👩‍👧 𝙶𝚛𝚘𝚞𝚙', url=f'https://t.me/crazyrocks'),
+        InlineKeyboardButton('⭕ 𝙶𝚛𝚘𝚞𝚙 ⭕', url=f'https://t.me/crazyrocks'),
         InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕 🔊', url=f'https://t.me/crazy_rocks')
     ],[
-        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
+        InlineKeyboardButton('❤️ YOUTUBE ❤️', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -136,7 +136,7 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
+        InlineKeyboardButton('🏡 𝙷𝚘𝚖𝚎', callback_data='start'),
         InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝 🚩', callback_data='about')
     ],[
         InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
@@ -157,10 +157,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 @Jbrofficial 👤', url='https://t.me/jbr_official'),
-        InlineKeyboardButton('Instrgram', url='https://instgrsm.com/jbr_creation')
+        InlineKeyboardButton(' OWNER👩‍💻', url='https://t.me/jbr_official'),
+        InlineKeyboardButton('Instrgram', url='https://INSTGRAM.com/jbr_creation')
     ],[
-        InlineKeyboardButton('👤 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('🥀A𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 🥀', url='https://t.me/AlbertEinsteinTG')
     ],[
         InlineKeyboardButton('🏡 𝙷𝚘𝚖𝚎', callback_data='start'),
         InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
